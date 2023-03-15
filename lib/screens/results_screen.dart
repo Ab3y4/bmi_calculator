@@ -52,8 +52,10 @@ class ResultsScreen extends StatelessWidget {
                     children: [
                       Text(
                         result,
-                        style: const TextStyle(
-                            color: Color(0xFF66D480),
+                        style: TextStyle(
+                            color: (result == 'Overweight')
+                                ? Colors.red
+                                : const Color(0xFF66D480),
                             fontSize: 20,
                             fontWeight: FontWeight.bold),
                       ),

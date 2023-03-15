@@ -23,7 +23,7 @@ class WeightAgeCard extends StatelessWidget {
         ),
       ),
       width: 190,
-      height: 220,
+      // height: 220,
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 25),
         child: SingleChildScrollView(

@@ -25,7 +25,7 @@ class GenderCard extends StatelessWidget {
           ),
         ),
         width: 190,
-        height: 220,
+        // height: 220,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
