@@ -89,11 +89,7 @@ class ResultsScreen extends StatelessWidget {
             BottomButton(
               buttonText: 're-calculate',
               onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                      builder: (context) => const CalculateScreen()),
-                );
+                Navigator.pop(context);
               },
             )
           ],
